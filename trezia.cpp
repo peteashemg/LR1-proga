@@ -18,11 +18,10 @@ int main() {
     	mid_line = (a + b) / 2.0;
     	area = mid_line * h;
 	
-    	printf("\n--- Результаты ---\n");
+    	printf("\nРезультаты\n");
     	printf("Периметр: %.2f\n", perimeter);
     	printf("Средняя линия: %.2f\n", mid_line);
     	printf("Площадь: %.2f\n", area);
 
 	return 0;
 }
-
