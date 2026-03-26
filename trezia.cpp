@@ -12,6 +12,17 @@ int main() {
     	scanf("%lf %lf", &d, &c);
     	printf("Введите высоту (h): ");
     	scanf("%lf", &h);
+	
+	// Proverka
+	if  (a <= 0 || b <= 0 || c <= 0 || d <= 0 || h <= 0 ||) {
+		printf("warning! all sides are negative.\n");
+		return 1;
+		}
+
+		if (abs(a - b) >= (c+d)) {
+			printf("Warning! Trapezia with this side cannot exist\n");
+			return 1;
+		}
 
     	// Расчеты
     	perimeter = a + b + c + d;
